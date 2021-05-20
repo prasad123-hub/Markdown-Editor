@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import MarkedInput from "./components/RawInputArea";
 import MarkDownResult from "./components/MarkDownSanitized";
@@ -25,6 +25,7 @@ const App = () => {
             <a
               href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
               target="_blank"
+              rel="#"
             >
               Click Here To Markdown Cheat Sheet
             </a>
